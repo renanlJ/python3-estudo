@@ -4,6 +4,7 @@ def jogar():
     print('*********************************')
 
     palavra_secreta = "pera".upper()
+    # List comprehensions
     letras_acertadas = ["_" for letra in palavra_secreta]
 
     print(letras_acertadas)
